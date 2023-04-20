@@ -1,0 +1,63 @@
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>class 11</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../css/chosse.css">
+        <link rel="stylesheet" href="../css/question.css">
+        <link rel="stylesheet" href="../moblie.css">
+    </head>
+    
+    <body>
+        <div class="box" id="questionscreen" >
+            <div class="title">
+                Class 11 Quiz
+            </div>
+            <div class="header">
+                <div class="scorebox">Score : <span>0</span></div>
+                <div class="timerbox"> Time Left : <span></span></div>
+            </div>
+            <div class="questionbox " >
+                
+            </div>
+            <div class="optionbox">
+                <Span onclick="checkAnswer(this) " data-opt="1"></Span>
+                <Span onclick="checkAnswer(this) " data-opt="2"></Span>
+                <Span onclick="checkAnswer(this) " data-opt="3"></Span>
+                <Span onclick="checkAnswer(this) " data-opt="4"></Span>
+                
+            </div>
+            <div class="footer">
+                <button onclick="showResult(1)">
+                    Show Result
+                </button >
+                <button onclick="showNext()"> 
+                    Next
+                 </button>
+            </div>
+        </div>
+    <div class="box" id="resultscreen" style="display: none;">
+        <div class="title">
+            Your Class 11 Quiz Result is:
+        </div>
+        <div class="resultbox">
+            <label>Questions : </label>
+            <span id="totalquestions">0</span>
+            <label>Attempt : </label>
+            <span id="attemptquestions">0</span>
+            <label>Correct : </label>
+            <span id="correctanswers">0</span>
+            <label>Wrong : </label>
+            <span id="wronganswers">0</span>
+        </div>
+        <div class="buttonbox">
+            <a href="chosse.html">Start Again</a>
+        </div>
+    </div>
+    
+    </body>
+    <script src="../jquery-3.6.4.js"></script>
+    <script src="../js/11.js"></script>
+    <script src="../js/function.js"></script>
+    
+    
+    </html>

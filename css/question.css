@@ -1,0 +1,139 @@
+.title{
+    width: 100%;
+    border-bottom: 1px solid #464646;
+    color: #464646;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+     margin-top: 15px;
+    padding: 5px 350px;
+}
+.header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.scorebox,
+.timerbox{
+    margin: auto;
+    border-radius: 100px;
+    padding:10px 15px;
+    border: 1px solid #444;
+    color: #444;
+}
+.questionbox{
+    text-align: center;
+    font-weight: 900;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #594a76;
+    color:#fff;
+    border-radius: 10px;
+    padding: 10px 15px ;
+    margin: 20px;
+
+}
+.optionbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 0;
+    grid-gap: 15px;
+    
+}
+.optionbox span{
+    text-align: center;
+    font-weight: 900;
+    font-size: larger ;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 25px;
+    background-color: #ccc;
+    border-radius: 10px;
+    color:#444;
+    border:1px solid #444;
+    padding:10px 15px;
+    cursor: pointer;
+}  
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.footer button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #1da3dd;
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: #fff;
+    border: 0;
+    outline: none;
+}
+.buttonbox a{
+    width: 350px;
+    font-size: 20px;
+}
+.resultbox{
+    font-size: 26px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 15px;
+}
+.resultbox *:nth-child(odd){
+    text-align: right;
+}
+.resultbox span{
+    font-weight: 600;
+}
+.buttonbox{
+    border-top: 1px solid #444;
+    text-align: center;
+
+}
+.buttonbox a{
+    background-color: #1da3dd;
+    border-radius: 50px;
+    border:0;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    padding: 7px 15px;
+    margin-top: 13px;
+    display: inline-block;
+}
+.optionbox span.right{
+    background-color: #00ab00;
+    border-color: #00ab00;
+    color: #fff;
+}
+.optionbox span.wrong{
+    background-color: #ff3b0e;
+    border-color: #ff3b0e;
+    color: #fff;
+}
+button{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
