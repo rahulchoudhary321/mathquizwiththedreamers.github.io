@@ -69,7 +69,7 @@ answer:3,
     question: "The function F(x)=tan x - x",
 option:[
     "Always increase",
-    "Always increase",
+    "Always decreases",
     "Sometimes increase and sometimes decreases",
     "Never increase",
 
