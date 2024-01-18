@@ -70,7 +70,7 @@
     .container{
         margin-right:0 ;
         padding: 25px;
-        width: 420px;
+        width: 440px;
     
 }
 .buttonbox a{
@@ -83,7 +83,7 @@
 }
 
 .rightside h1{
-    font-size: 23px;
+    font-size: 20px;
     
     
 }
@@ -92,10 +92,10 @@
 }
 .rightside ul li {
 
-    font-size: 15px;
+    font-size: 13px;
 }
 .leftside{
-margin-right: 40px;}
+margin-right: 30px;}
     .leftside img{
         margin-right: 50px;
         width:90px,}
