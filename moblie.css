@@ -62,7 +62,9 @@
 
 
 @media screen and (max-width:461px) {
-    .box{width: 325px;}
+    .box{width: 325px;
+           justify-content:center;
+        }
     .title{
         padding: 4px 100px;
          font-size: 18px;}
