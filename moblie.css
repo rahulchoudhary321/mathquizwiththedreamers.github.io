@@ -70,7 +70,7 @@
     .container{
         margin-right:0 ;
         padding: 25px;
-        width: fit-content;
+        width: 300px;
     
 }
 .buttonbox a{
@@ -79,16 +79,16 @@
 .box h1{
     padding:5px;
     
-    font-size:28px ;
+    font-size:27px ;
 }
 
 .rightside h1{
-    font-size: 25px;
+    font-size: 23px;
     
     
 }
 .rightside h2{
-    font: size 18px;
+    font: size 16px;
 }
 .rightside ul li {
 
